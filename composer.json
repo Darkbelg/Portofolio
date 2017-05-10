@@ -1,11 +1,13 @@
 {
-    "name": "heroku/portofolio",
-    "description": "A simple landing page",
+    "name": "stijn/portofolio",
+    "require": {
+        "php": "^7.1",
+        "twig/twig": "1.4"
+    },
     "authors": [
         {
-            "name": "Stijn Sagaert",
+            "name": "Darkbelg",
             "email": "stijn.sagaert@outlook.com"
         }
-    ],
-    "require": {}
+    ]
 }
