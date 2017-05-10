@@ -1,0 +1,11 @@
+{
+    "name": "heroku/portofolio",
+    "description": "A simple landing page",
+    "authors": [
+        {
+            "name": "Stijn Sagaert",
+            "email": "stijn.sagaert@outlook.com"
+        }
+    ],
+    "require": {}
+}
