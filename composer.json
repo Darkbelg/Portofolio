@@ -1,12 +1,12 @@
 {
     "name": "stijn/portofolio",
     "require": {
-        "php": "^7.1",
-        "twig/twig": "1.4"
+        "twig/twig": "1.33.2",
+        "php": "^7.1"
     },
     "authors": [
         {
-            "name": "Darkbelg",
+            "name": "Stijn Sagaert",
             "email": "stijn.sagaert@outlook.com"
         }
     ]
