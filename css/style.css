@@ -1,172 +1,70 @@
-@charset "utf-8";
-
-h1,h2,h3,body{
-    font-family: "Source Sans Pro",sans-serif;
-    font-weight: 300;
+@charset "UTF-8";
+/**{*/
+    /*margin:0;*/
+    /*padding: 0;*/
+    /*outline: none;*/
+    /*border: none;*/
+/*}*/
+html{
+    height: 100%;
 }
-h1 {
-    font-size: 3em;
+body{
+
+    height: 100%;
+    background-color: #333;
+    color: #fffff0;
+    /*background:linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;*/
+    /*background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;*/
+
+    /*background-image: linear-gradient(to right, #434343 0%, black 100%);*/
+
+    background-image: linear-gradient(60deg, #485563 0%, #29323c 100%);
+
+    /*background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);*/
+    /*background-blend-mode: multiply;*/
+
+}
+
+
+
+hr{
+    background-color: #fffff0;
+    transform: scale(0.5);
+     transition: all .2s ease-in-out;
+    transform: scale(1.1);
+}
+footer {
     text-align: center;
-}
-h2{color: #2c2f36;font-size: 2em;margin-bottom:5px;}
-
-html,body{
-    width: 100%;
-    padding: 0;
-    margin:0;
-    height: 100%;
-    min-width: 100%;
-    max-width: 100%;
-    /*overflow: hidden;*/
-    background: #868a7b;
-    /*background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);*/
-}
-.link{
-    display: block;
-    margin:1em auto;
-    width: 5em;
-}
-#page-wrapper{
-    width: 1000px;
-    margin:0 auto;
-}
-.block{
-    width: 400px;
-    margin:0 auto;
-}
-.section-heading{
-    font-family: 'Cabin Condensed', sans-serif;
-    font-size: 2em;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin: 20px 0 0 40px;
-}
-.item-hover,.item-hover * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-
-}
-.item-hover a:hover{
-    text-decoration: none;
-}
-.item-hover img{
-
-    /*width: 300px;*/
-    /*height: 300px;*/
-    /*outline: red 1px dotted;*/
-}
-.item-hover.square{
-    position: relative;
-    height: 300px;
-    margin: 40px 0;
-}
-.item-hover.square .img{
-    position: relative;
-    width: 300px;
-    height:300px;
-    overflow: hidden;
-
-
-}
-.item-hover.square .img:before{
+    /*margin: 0;*/
     position: absolute;
-    display: block;
-    content: '';
+    /*bottom: 0;*/
     width: 100%;
-    height: 100%;
-    box-shadow: inset 0 0 0 10px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+    margin-top: 2em;
+    bottom-max: 0;
+    height: 3.5em;
+    /*clear: both;*/
+    /* Set the fixed height of the footer here */
+    /*height: 5px;*/
+    /*line-height: 60px; !* Vertically center the text there *!*/
+
 }
-.item-hover.square .info {
-    position: absolute;
-    top:0;
+.stickBottom{
     bottom:0;
-    left:0;
-    right:0;
-    padding: 30px;
-    text-align: center;
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    backface-visibility: hidden;
 }
-.item-hover.square.effect .info{
-    background: #333;
-    /*background: #fffff0;*/
-    pointer-events: none;
-    opacity: 0;
-    -webkit-transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    transition: all 0.35s ease-in-out;
-}
-.item-hover.square.effect .info h3{
-    color: #fff;
-    /*color: #333;*/
-    text-transform: uppercase;
-    position: relative;
-    letter-spacing: 2px;
-    font-size: 20px;
-    margin:10px 25px;
-    padding: 5px 0 0 0;
-    height: 55px;
-    text-shadow: 0 0 1px white, 0 1px 2px rgba(0,0,0,0.3);
+.fa span{
 
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
 }
-.item-hover.square.effect .info p{
-    color: #bbb;
-    padding: 10px 5px;
-    margin:0px 50px;
-    font-size: 16px;
-    border-top: 1px solid rgba(255,255,255,0.5);
+.portfoliofoto{
+    background-image: url("../img/DSC00021.JPG");
+    background-size:100%;
+    background-repeat: no-repeat;
+    height: 25em;
 }
-.item-hover.square.effect .img{
-    z-index: 10;
-    -webkit-transistion:all 0.35s ease-in-out;
-    -moz-transistion:all 0.35s ease-in-out;
-    transistion:all 0.35s ease-in-out;
+.portfoliofoto:hover{
+    background-image: url("../img/DSC00021.png");
 }
-/*het 'van links naar rechts'-effect */
-.item-hover.square.effect.left_to_right .img{
-    -webkit-transform: scale(1) translateX(25%);
-    -moz-transform: scale(1) translateX(25%);
-    transform: scale(1) translateX(25%);
 
-}
-.item-hover.square.effect.left_to_right .info{
-    -webkit-transform: scale(1) translateX(-100%);
-    -moz-transform: scale(1) translateX(-100%);
-    transform: scale(1) translateX(-100%);
-}
-.item-hover.square.effect.left_to_right a:hover .img{
-    -webkit-transform: scale(0.5) translateX(175%);
-    -moz-transform: scale(0.5) translateX(175%);
-    transform: scale(0.5) translateX(175%);
-}
-.item-hover.square.effect.left_to_right a:hover .info{
-    opacity: 1;
-    -webkit-transform: translateX(0);
-    -moz-transform: translateX(0);
-    transform: translateX(0);
-}
-/*het 'van rechts naar links' -effect*/
-.item-hover.square.effect.right_to_left .img{
-    -webkit-transform: scale(1) translateX(25%);
-    -moz-transform: scale(1) translateX(25%);
-    transform: scale(1) translateX(25%);
-}
-.item-hover.square.effect.right_to_left .info{
-    -webkit-transform: scale(1) translateX(100%);
-    -moz-transform: scale(1) translateX(100%);
-    transform: scale(1) translateX(100%);
-}
-.item-hover.square.effect.right_to_left a:hover .img{
-    -webkit-transform: scale(0.5) translateX(-100%);
-    -moz-transform: scale(0.5) translateX(-100%);
-    transform: scale(0.5) translateX(-100%);
-}
-.item-hover.square.effect.right_to_left a:hover .info{
-    opacity: 1;
-    -webkit-transform: translateX(0);
-    -moz-transform: translateX(0);
-    transform: translateX(0);
+.about{
+    max-width: 75ch;
 }
