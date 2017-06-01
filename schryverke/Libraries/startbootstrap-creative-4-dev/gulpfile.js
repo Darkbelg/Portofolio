@@ -50,26 +50,26 @@ gulp.task('minify-js', function() {
         }))
 });
 
-// Copy vendor files from /node_modules into /vendor
+// Copy Libraries files from /node_modules into /Libraries
 // NOTE: requires `npm install` before running!
 gulp.task('copy', function() {
     gulp.src(['node_modules/bootstrap/dist/**/*', '!**/npm.js', '!**/bootstrap-theme.*', '!**/*.map'])
-        .pipe(gulp.dest('vendor/bootstrap'))
+        .pipe(gulp.dest('Libraries/bootstrap'))
 
     gulp.src(['node_modules/jquery/dist/jquery.js', 'node_modules/jquery/dist/jquery.min.js'])
-        .pipe(gulp.dest('vendor/jquery'))
+        .pipe(gulp.dest('Libraries/jquery'))
 
     gulp.src(['node_modules/magnific-popup/dist/*'])
-        .pipe(gulp.dest('vendor/magnific-popup'))
+        .pipe(gulp.dest('Libraries/magnific-popup'))
 
     gulp.src(['node_modules/scrollreveal/dist/*.js'])
-        .pipe(gulp.dest('vendor/scrollreveal'))
+        .pipe(gulp.dest('Libraries/scrollreveal'))
 
     gulp.src(['node_modules/tether/dist/js/*.js'])
-        .pipe(gulp.dest('vendor/tether'))
+        .pipe(gulp.dest('Libraries/tether'))
 
     gulp.src(['node_modules/jquery.easing/*.js'])
-        .pipe(gulp.dest('vendor/jquery-easing'))
+        .pipe(gulp.dest('Libraries/jquery-easing'))
 
     gulp.src([
             'node_modules/font-awesome/**',
@@ -79,7 +79,7 @@ gulp.task('copy', function() {
             '!node_modules/font-awesome/*.md',
             '!node_modules/font-awesome/*.json'
         ])
-        .pipe(gulp.dest('vendor/font-awesome'))
+        .pipe(gulp.dest('Libraries/font-awesome'))
 })
 
 // Default task

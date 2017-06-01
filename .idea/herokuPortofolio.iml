@@ -2,32 +2,20 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <excludeFolder url="file://$MODULE_DIR$/vendor/bootstrap/css" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/bootstrap/js" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/font-awesome-4.7.0/css" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/font-awesome-4.7.0/fonts" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/font-awesome-4.7.0/less" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/font-awesome-4.7.0/scss" />
+      <excludeFolder url="file://$MODULE_DIR$/Libraries/bootstrap/css" />
+      <excludeFolder url="file://$MODULE_DIR$/Libraries/bootstrap/js" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
       <library name="PHP" type="php">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bootstrap/css" />
-          <root url="file://$MODULE_DIR$/vendor/bootstrap/js" />
-          <root url="file://$MODULE_DIR$/vendor/font-awesome-4.7.0/css" />
-          <root url="file://$MODULE_DIR$/vendor/font-awesome-4.7.0/fonts" />
-          <root url="file://$MODULE_DIR$/vendor/font-awesome-4.7.0/less" />
-          <root url="file://$MODULE_DIR$/vendor/font-awesome-4.7.0/scss" />
+          <root url="file://$MODULE_DIR$/Libraries/bootstrap/css" />
+          <root url="file://$MODULE_DIR$/Libraries/bootstrap/js" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bootstrap/css" />
-          <root url="file://$MODULE_DIR$/vendor/bootstrap/js" />
-          <root url="file://$MODULE_DIR$/vendor/font-awesome-4.7.0/css" />
-          <root url="file://$MODULE_DIR$/vendor/font-awesome-4.7.0/fonts" />
-          <root url="file://$MODULE_DIR$/vendor/font-awesome-4.7.0/less" />
-          <root url="file://$MODULE_DIR$/vendor/font-awesome-4.7.0/scss" />
+          <root url="file://$MODULE_DIR$/Libraries/bootstrap/css" />
+          <root url="file://$MODULE_DIR$/Libraries/bootstrap/js" />
         </SOURCES>
       </library>
     </orderEntry>

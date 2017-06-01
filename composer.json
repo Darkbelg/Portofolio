@@ -1,6 +1,7 @@
 {
-    "name": "stijn_sagaert/portfolio",
-    "description": "Portfolio van stijn sagaert",
+    "name": "stijn.sagaert/portfolio",
+    "description": "Portfolio gemaakt door Stijn Sagaert",
+    "type": "project",
     "authors": [
         {
             "name": "Stijn Sagaert",
