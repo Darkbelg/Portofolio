@@ -56,13 +56,13 @@ footer {
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
 }
 .portfoliofoto{
-    background-image: url("../img/ZonderBrilMetOogRuimte.png");
+    background-image: url("../img/ZonderBrilMetOogRuimte.jpg");
     background-size:100%;
     background-repeat: no-repeat;
     height: 19em;
 }
 .portfoliofoto:hover{
-    background-image: url("../img/BrilMetOogRuimte.png");
+    background-image: url("../img/BrilMetOogRuimte.jpg");
 }
 
 .about{
