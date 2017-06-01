@@ -1,0 +1,11 @@
+{
+    "name": "stijn_sagaert/portfolio",
+    "description": "Portfolio van stijn sagaert",
+    "authors": [
+        {
+            "name": "Stijn Sagaert",
+            "email": "stijn.sagaert@outlook.com"
+        }
+    ],
+    "require": {}
+}
