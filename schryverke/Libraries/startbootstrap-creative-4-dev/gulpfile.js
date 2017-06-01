@@ -50,7 +50,7 @@ gulp.task('minify-js', function() {
         }))
 });
 
-// Copy Libraries files from /node_modules into /Libraries
+// Copy libraries files from /node_modules into /libraries
 // NOTE: requires `npm install` before running!
 gulp.task('copy', function() {
     gulp.src(['node_modules/bootstrap/dist/**/*', '!**/npm.js', '!**/bootstrap-theme.*', '!**/*.map'])
