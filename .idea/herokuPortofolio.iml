@@ -4,20 +4,9 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/Libraries/bootstrap/css" />
       <excludeFolder url="file://$MODULE_DIR$/Libraries/bootstrap/js" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library name="PHP" type="php">
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/Libraries/bootstrap/css" />
-          <root url="file://$MODULE_DIR$/Libraries/bootstrap/js" />
-        </CLASSES>
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/Libraries/bootstrap/css" />
-          <root url="file://$MODULE_DIR$/Libraries/bootstrap/js" />
-        </SOURCES>
-      </library>
-    </orderEntry>
   </component>
 </module>
