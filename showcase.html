@@ -14,23 +14,23 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="libraries/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    
+
     <!-- Custom styles for this template -->
-    
+
     <link href="css/1-col-portfolio.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
     <!-- Temporary navbar container fix -->
     <style>
-    .navbar-toggler {
-        z-index: 1;
-    }
-    
-    @media (max-width: 576px) {
-        nav > .container {
-            width: 100%;
+        .navbar-toggler {
+            z-index: 1;
         }
-    }
+
+        @media (max-width: 576px) {
+            nav>.container {
+                width: 100%;
+            }
+        }
     </style>
 
 </head>
@@ -39,7 +39,9 @@
 
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+            data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="container">
@@ -53,7 +55,7 @@
                         <a class="nav-link" href="#">Showcase</a>
                     </li>
                     <!--<li class="nav-item">-->
-                        <!--<a class="nav-link" href="http://localhost/portofolio/index.html#contact">Contact</a>-->
+                    <!--<a class="nav-link" href="http://localhost/portofolio/index.html#contact">Contact</a>-->
                     <!--</li>-->
                 </ul>
             </div>
@@ -66,61 +68,29 @@
         <!-- Project One -->
         <div class="row">
             <div class="col-md-7">
-                <a href="#">
-                    <img class="img-fluid rounded mb-3 mb-md-0 " src="img/dennis.PNG" alt="">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <h3>Laravel</h3>
-                <p>Een serverless project die op de aws serverless stack draait met behulp van bref library.
-                    Waar je met verschillende parameters bepaalde videos kunt opzoeken.
-                    Eerste expirement met Laravel.
-                </p>
-                <a class="btn btn-primary" href="https://zewal0vyuc.execute-api.eu-west-3.amazonaws.com/dev">Advanced
-                    Search Laravel
-                </a>
-                <a class="btn btn-primary fa fa-github" href="https://github.com/Darkbelg/advanced-search-laravel"><span> Code op Github</span></a>
-
-            </div>
-        </div>
-        <hr>
-        <!--Project Two-->
-        <div class="row">
-            <div class="col-md-7">
-                <a href="#">
-                    <img class="img-fluid rounded mb-3 mb-md-0 " src="img/serverless.PNG" alt="">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <h3>Youtube API</h3>
-                <p>Een serverless project die op de aws serverless stack draait met behulp van bref library.
-                    Twee sites één severless stack. Waar je kanalen mee kunt zoeken die op youtube staan.
-                    Eerste expirement met Symfony 4.
-                </p>
-                <a class="btn btn-primary" href="https://www.nostalgicchannels.com/">Youtube Nostalgic</a>
-                <a class="btn btn-primary" href="https://www.yearinreviewchannels.com/">Youtube Year In Review</a>
-            </div>
-        </div>
-        <hr>
-
-        <!-- /.row -->
-
-        <!--Project Two-->
-        <div class="row">
-            <div class="col-md-7">
                 <a href="whereiscl.com">
                     <img class="img-fluid rounded mb-3 mb-md-0 " src="img/whereiscl.png" alt="">
                 </a>
             </div>
             <div class="col-md-5">
-                <h3>Whereiscl.com</h3>
-                <p>Een serverless project die op de aws serverless stack draait met behulp van bref library.
-                    Er word via de youtube api op bepaalde key words gezocht die dan verschillende videos toont.
-                    Een custom php project.</p>
+                <h3>Whereiscl.com versie 2</h3>
+                <p>Een laravel 8 project om het framework beter te leren kennen. Gehost op een digital ocean droplet
+                    lemp stack.
+                    De site toont videos en fancams van voorbije concerten van kpop idol CL.
+                    Er word gebruik gemaakt van feature testing, eloquent, breeze package voor authentication en blade.
+                    Er word via de youtube api meta data opgehaald van de videos en deze word dan opgeslagen in de
+                    database.</p>
                 <a class="btn btn-primary" href="https://www.whereiscl.com/">Where is cl ?</a>
+                <a class="btn btn-primary fa fa-github" href="https://github.com/Darkbelg/whereisclv2">code on
+                    Github</a>
+                <a class="btn btn-primary" href="http://test.whereiscl.com/">Test server</a>
+                <a class="btn btn-primary" href="http://test.whereiscl.com/register">Klik deze link om je te registreren
+                    op de test sever.</a>
             </div>
         </div>
         <hr>
+                <!--Project Two-->
+
         <div class="row">
             <div class="col-md-7">
                 <a href="#">
@@ -129,10 +99,12 @@
             </div>
             <div class="col-md-5">
                 <h3>Pizza webshop</h3>
-                <p>De pizzawebshop was een eindopdracht voor de php opleiding. Het is opgebouwed volgens het MVC principe en Twig word gebruikt als template engine. <br> Gehost op
-                    <a href="http://www.heroku.com" target="_blank" >heroku.</a></p>
+                <p>De pizzawebshop was een eindopdracht voor de php opleiding. Het is opgebouwed volgens het MVC
+                    principe en Twig word gebruikt als template engine. <br> Gehost op
+                    <a href="http://www.heroku.com" target="_blank">heroku.</a></p>
                 <a class="btn btn-primary" href="https://papipizza.herokuapp.com/toonallepizzas.php">View Project</a>
-                <a class="btn btn-primary fa fa-github" href="https://github.com/Darkbelg/PizzaWebshop"><span> Code op Github</span></a>
+                <a class="btn btn-primary fa fa-github" href="https://github.com/Darkbelg/PizzaWebshop"><span> Code op
+                        Github</span></a>
             </div>
         </div>
         <hr>
@@ -145,9 +117,11 @@
             </div>
             <div class="col-md-5">
                 <h3>Schryverke </h3>
-                <p>Het Schryverke is een kopieer en print centrum. Ik heb de website verniewd als oefening en om er in ruil gratis te printen.</p>
+                <p>Het Schryverke is een kopieer en print centrum. Ik heb de website verniewd als oefening en om er in
+                    ruil gratis te printen.</p>
                 <a class="btn btn-primary" href="schryverke/index.html">View Project</a>
-                <a class="btn btn-primary fa fa-github" href="https://github.com/Darkbelg/schryverke"><span> Code op Github</span></a>
+                <a class="btn btn-primary fa fa-github" href="https://github.com/Darkbelg/schryverke"><span> Code op
+                        Github</span></a>
             </div>
         </div>
     </div>
@@ -159,9 +133,12 @@
         <div class="container">
             <!--<p class="m-0 text-center text-white">Copyright 2017 &copy; Stijn Sagaert</p>-->
             <p>
-            <a href="https://twitter.com/darkbelg" class="fa fa-twitter btn btn-link" role="button"> <span>Twitter</span></a>
-            <a href="https://github.com/Darkbelg" class="btn btn-link fa fa-github" role="button"> <span>Github</span></a>
-            <a href="https://www.google.be/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjDne3S8oXUAhURa1AKHbmhDL0QFggnMAA&url=https%3A%2F%2Fbe.linkedin.com%2Fin%2Fstijn-sagaert-5096a35b&usg=AFQjCNGTE9Cy_HqT0coixpN2V69Vfmyfmw&sig2=sFSLymV9g96yf7DihQLU1A" class="btn btn-link fa fa-linkedin" role="button"> <span>LinkedIn</span></a>
+                <a href="https://twitter.com/darkbelg" class="fa fa-twitter btn btn-link" role="button">
+                    <span>Twitter</span></a>
+                <a href="https://github.com/Darkbelg" class="btn btn-link fa fa-github" role="button">
+                    <span>Github</span></a>
+                <a href="https://www.google.be/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjDne3S8oXUAhURa1AKHbmhDL0QFggnMAA&url=https%3A%2F%2Fbe.linkedin.com%2Fin%2Fstijn-sagaert-5096a35b&usg=AFQjCNGTE9Cy_HqT0coixpN2V69Vfmyfmw&sig2=sFSLymV9g96yf7DihQLU1A"
+                    class="btn btn-link fa fa-linkedin" role="button"> <span>LinkedIn</span></a>
             </p>
         </div>
         <!-- /.container -->
