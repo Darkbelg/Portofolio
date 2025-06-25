@@ -6,19 +6,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Stijn Sagaert">
-    <meta name="description" content="Portfolio Stijn Sagaert met showcase.">
+    <meta name="description" content="Stijn Sagaert portfolio with showcase.">
     <title>Stijn Sagaert |portfolio</title>
 
     <!-- Bootstrap core CSS -->
     <!--<link rel="stylesheet href="libraries/fortawesome/font-awesome/css/font-awesome.min.css">-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link href="libraries/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../libraries/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
     <!-- Custom styles for this template -->
 
-    <link href="css/1-col-portfolio.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/1-col-portfolio.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
 
     <!-- Temporary navbar container fix -->
     <style>
@@ -59,7 +59,7 @@
                         <a class="nav-link" href="#">Showcase</a>
                     </li>
                     <li class="nav-item ml-5">
-                        <a class="nav-link" href="en/showcase.html">English</a>
+                        <a class="nav-link" href="../showcase.html">Dutch</a>
                     </li>
                     <!--<li class="nav-item">-->
                     <!--<a class="nav-link" href="http://localhost/portofolio/index.html#contact">Contact</a>-->
@@ -77,18 +77,17 @@
         <!-- Project One -->
         <div class="row">
             <div class="col-md-7">
-                <img class="img-fluid rounded mb-3 mb-md-0 " src="img/ChatUI.png" alt="">
+                <img class="img-fluid rounded mb-3 mb-md-0 " src="../img/ChatUI.png" alt="">
             </div>
             <div class="col-md-5">
-                <h3>Mijn eigen chat interface voor LLMs van verschillende providers te gebruiken.</h3>
+                <h3>My own chat interface to use LLMs from different providers.</h3>
                 <p>
-                    Ik heb deze zelf gebouwd omdat andere oplossingen niet de recursieve geschiedenis bijhielden.
-                    Het gebruikt Laravel met Vue. Inertia is de laag tussen de twee.
-                    Achterligend word een queue systeem gebruikt die dan met reverb de nieuwe update toont.
-                    Het gebruikt strategy pattern om verschillende AI api services te kunnen aanspreken (OpenAI, Groq,
+                    I built this myself because other solutions did not keep the recursive history.
+                    It uses Laravel with Vue. Inertia is the layer between the two.
+                    Behind the scenes, a queue system is used, which then uses reverb to display the new update.
+                    It uses a strategy pattern to be able to address different AI API services (OpenAI, Groq,
                     Deepinfra, Deepseek, Firwork, Together, Antrhopic, Mistral).
-                    Ik gebruik saloon voor alle API connecties te beheren behalve voor OpenAI waar ik een package voor
-                    gebruik.
+                    I use saloon to manage all API connections except for OpenAI, where I use a package.
                 </p>
             </div>
         </div>
@@ -96,14 +95,14 @@
         <div class="row">
             <div class="col-md-7">
                 <a href="https://github.com/Darkbelg/image-generator">
-                    <img class="img-fluid rounded mb-3 mb-md-0 " src="img/GradioImageGenerator.png" alt="">
+                    <img class="img-fluid rounded mb-3 mb-md-0 " src="../img/GradioImageGenerator.png" alt="">
                 </a>
             </div>
             <div class="col-md-5">
-                <h3>Dit is een Gradio web app dat GPT-1 image generatie gebruikt.</h3>
+                <h3>This is a Gradio web app that uses GPT-1 image generation.</h3>
                 <p>
-                    Omdat ik geen ChatGpt Plus heb, heb ik zelf een Gradio web app gemaakt die de GPT-1 image
-                    generatie gebruikt via de API.
+                    Because I don't have ChatGpt Plus, I created my own Gradio web app that uses the GPT-1 image
+                    generation via the API.
                 </p>
                 <a class="btn btn-primary fa fa-github" href="https://github.com/Darkbelg/image-generator">
                     Code</a>
@@ -113,7 +112,7 @@
         <div class="row">
             <div class="col-md-7">
                 <a href="https://whereiscl.com">
-                    <img class="img-fluid rounded mb-3 mb-md-0 " src="img/WhereIsClV3.png" alt="">
+                    <img class="img-fluid rounded mb-3 mb-md-0 " src="../img/WhereIsClV3.png" alt="">
                 </a>
             </div>
             <div class="col-md-5">
@@ -134,17 +133,17 @@
         <div class="row">
             <div class="col-md-7">
                 <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2791637140">
-                    <img class="img-fluid rounded mb-3 mb-md-0 " src="img/Arma3DarkbelgSpeedControl.png" alt="">
+                    <img class="img-fluid rounded mb-3 mb-md-0 " src="../img/Arma3DarkbelgSpeedControl.png" alt="">
                 </a>
             </div>
             <div class="col-md-5">
-                <h3>Dit is een arma 3 mod die een UI toevoegd aan nieuwe functionaliteit.</h3>
+                <h3>This is an Arma 3 mod that adds a UI to new functionality.</h3>
                 <p>
-                    Arma 3 heeft het mogelijk gemaakt om cruise control of een speed limit op voertuigen te zetten.
-                    Maar sinds het zo laat in de game is toegevoegd, is er geen UI voor gemaakt.
-                    Daarom heb ik dit zelf gemaakt. Ik heb hiervoor ook nog bugs aangemaakt bij Bohemia Interactive.
-                    Deze zijn allemaal opgelost. De downloads zit boven 10% van unique viewers. Wat een mooie percentage
-                    is.
+                    Arma 3 has made it possible to set cruise control or a speed limit on vehicles.
+                    But since it was added so late in the game, no UI was created for it.
+                    That's why I made this myself. I also created bugs at Bohemia Interactive for this.
+                    These have all been resolved. The downloads are above 10% of unique viewers. Which is a nice
+                    percentage.
                 </p>
                 <a class="btn btn-primary" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2791637140">
                     Darkbelg Speed Control</a>
@@ -156,16 +155,16 @@
         <div class="row">
             <div class="col-md-7">
                 <a href="https://demo.time-tracker.agnodyce.com">
-                    <img class="img-fluid rounded mb-3 mb-md-0 " src="img/Timetracker.png" alt="">
+                    <img class="img-fluid rounded mb-3 mb-md-0 " src="../img/Timetracker.png" alt="">
                 </a>
             </div>
             <div class="col-md-5">
-                <h3>Dit is een demo time tracker die Filament php gebruikt.</h3>
+                <h3>This is a demo time tracker that uses Filament PHP.</h3>
                 <p>
-                    Omdat er discussie was om een nieuwe time tracker te gebruiken in plaats van excel.
-                    Heb ik zelf de oefening gedaan of ik dit zelf in een week kon maken.
-                    En dit is het resultaat.
-                    Later heb ik laravel octane toegevoegd voor beter performance.
+                    Because there was discussion about using a new time tracker instead of excel.
+                    I did the exercise myself to see if I could make this myself in a week.
+                    And this is the result.
+                    Later I added Laravel Octane for better performance.
                 </p>
                 <ul>
                     <li>Gebruiker e-mail: stijn.sagaert@example.com en wachtwoord: password.
@@ -180,7 +179,7 @@
         <div class="row">
             <div class="col-md-7">
                 <a href="https://tranlsate.agnodyce.com">
-                    <img class="img-fluid rounded mb-3 mb-md-0 " src="img/Translate.png" alt="">
+                    <img class="img-fluid rounded mb-3 mb-md-0 " src="../img/Translate.png" alt="">
                 </a>
             </div>
             <div class="col-md-5">
@@ -198,7 +197,7 @@
         <div class="row">
             <div class="col-md-7">
                 <a href="https://www.agnodyce.com">
-                    <img class="img-fluid rounded mb-3 mb-md-0 " src="img/agnodyce.png" alt="">
+                    <img class="img-fluid rounded mb-3 mb-md-0 " src="../img/agnodyce.png" alt="">
                 </a>
             </div>
             <div class="col-md-5">
@@ -217,7 +216,7 @@
         <div class="row">
             <div class="col-md-7">
                 <a href="https://github.com/Darkbelg/webshop-kata">
-                    <img class="img-fluid rounded mb-3 mb-md-0 " src="img/readme.png" alt="">
+                    <img class="img-fluid rounded mb-3 mb-md-0 " src="../img/readme.png" alt="">
                 </a>
             </div>
             <div class="col-md-5">
@@ -234,7 +233,7 @@
         <div class="row">
             <div class="col-md-7">
                 <a href="whereiscl.com">
-                    <img class="img-fluid rounded mb-3 mb-md-0 " src="img/whereiscl.png" alt="">
+                    <img class="img-fluid rounded mb-3 mb-md-0 " src="../img/whereiscl.png" alt="">
                 </a>
             </div>
             <div class="col-md-5">
@@ -257,7 +256,7 @@
         <div class="row">
             <div class="col-md-7">
                 <a href="https://papipizza.herokuapp.com/toonallepizzas.php">
-                    <img class="img-fluid rounded mb-3 mb-md-0 " src="img/pizza.jpg" alt="">
+                    <img class="img-fluid rounded mb-3 mb-md-0 " src="../img/pizza.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-5">
@@ -275,7 +274,7 @@
         <div class="row">
             <div class="col-md-7">
                 <a href="schryverke/index.html">
-                    <img class="img-fluid rounded mb-3 mb-md-0 " src="img/schryverke.jpg" alt="">
+                    <img class="img-fluid rounded mb-3 mb-md-0 " src="../img/schryverke.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-5">
@@ -308,9 +307,9 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="libraries/jquery/jquery.min.js"></script>
-    <script src="libraries/tether/tether.min.js"></script>
-    <script src="libraries/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../libraries/jquery/jquery.min.js"></script>
+    <script src="../../libraries/tether/tether.min.js"></script>
+    <script src="../../libraries/bootstrap/js/bootstrap.min.js"></script>
 
 </body>
 
